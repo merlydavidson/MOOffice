@@ -1,0 +1,7 @@
+#Sat Apr 27 15:09:05 IST 2019
+base.0=/media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/build/intermediates/transforms/dexMerger/release/0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/build/intermediates/transforms/dexMerger/release/0

@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">MicroOffice</string>
+
+    <!-- [ERRORS/MESSAGES] -->
+    <string name="error_contacts">Without this permission the app is unable to send invite to users.</string>
+    <string name="message_no_users_found">No invited user found.</string>
+    <string name="message_no_office_found">No Office location found. Please add your offices first.</string>
+
+    <string name="alert_title_alert">Alert</string>
+    <string name="alert_title_message">Message</string>
+
+    <string name="text_title_admin">Administrator (Owner/Manager)</string>
+    <string name="text_title_associate">Associate (Employee)</string>
+
+    <string name="tb_title_administrator">Register Administrator</string>
+    <string name="tb_title_associate">Register Associate</string>
+    <string name="tb_add_office_loc">Add Office Location</string>
+    <string name="tb_title_mark_attendance">Mark Attendance</string>
+    <string name="tb_title_mark_visit">Add Visit</string>
+    <string name="tb_title_attendance_list">Attendance Results</string>
+    <string name="tb_title_leaveRequest_list">Leave Request</string>
+    <string name="tb_title_leaveDetail_list"> Leave Details</string>
+    <string name="tb_title_leaveSummary_list">Leave Summary</string>
+    <string name="tb_title_visit_list">Visit Results</string>
+    <string name="tb_title_call_log">Call Log</string>
+    <string name="tb_title_enquiry_list">Enquiry Results</string>
+
+
+    <string name="button_text_save">Save</string>
+    <string name="button_text_invite">Invite Users</string>
+    <string name="button_text_close">Close</string>
+    <string name="button_search_sms">Search SMS</string>
+    <string name="button_send_reg_sms">Send Registration Request</string>
+
+    <!-- REGISTER ADMINISTRATOR -->
+    <string name="edit_admin_name">Enter Admin\'s Name</string>
+    <string name="edit_mobile_number">Enter Mobile Number</string>
+    <string name="edit_company_name">Company Name</string>
+    <string name="edit_company_mail">Company Mail</string>
+    <string name="edit_shared_secret">Shared Secret</string>
+    <string name="edit_shared_secret_reentry">Shared Secret-reentry</string>
+
+    <!-- REGISTER ASSOCIATE -->
+    <string name="edit_user_name">Enter Username</string>
+    <string name="edit_personal_mail">Personal Mail</string>
+    <string name="edit_status_box">Status Box</string>
+
+    <!-- DASHBOARD ITEMS -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_offices">Offices</string>
+    <string name="nav_item_employeelist">Employee List</string>
+    <string name="nav_item_attendance">Attendance</string>
+    <string name="nav_item_visit">Visit</string>
+    <string name="nav_item_enquiry">Enquiry</string>
+    <string name="nav_item_support">Support</string>
+    <string name="nav_item_accout">Account Info</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="nav_item_contactus">Contact Us</string>
+    <string name="nav_item_invite">Invite Users</string>
+    <string name="nav_item_user">Users</string>
+    <string name="nav_update_employeelist">Update Users</string>
+    <string name="nav_update_offices">Update Offices</string>
+    <string name="nav_export_db">Database Export</string>
+    <string name="nav_export_excel">Excel Export</string>
+    <string name="nav_sync">Sync Prod/User</string>
+    <string name="nav_leave">Leave Management</string>
+    <string name="nav_user_lic">Purchase User Licence</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_attendance</item>
+        <item>@string/nav_item_visit</item>
+        <item>@string/nav_item_support</item>
+        <item>@string/nav_item_enquiry</item>
+        <item>@string/nav_item_user</item> <!--4-->
+        <item>@string/nav_item_offices</item><!--5-->
+        <item>@string/nav_item_accout</item><!--6-->
+        <item>@string/nav_item_invite</item><!--7-->
+        <item>@string/nav_export_db</item><!--8-->
+        <item>@string/nav_export_excel</item><!--9-->
+        <item>@string/nav_sync</item>
+        <item>@string/nav_leave</item>
+        <!--10-->
+        <!--<item>@string/nav_user_lic</item>11-->
+        <!--
+   <item>@string/nav_update_employeelist</item>
+   <item>@string/nav_update_offices</item>
+
+   <item>@string/nav_item_contactus</item>
+   <item>@string/nav_item_settings</item> -->
+
+    </string-array>
+
+    <string name="text_mark_attendance">Mark Attendance</string>
+    <string name="text_mark_visit">Mark Visit</string>
+    <string name="text_add_enquiry">Add\nEnquiry</string>
+    <string name="text_add_support">Add\nSupport</string>
+    <string name="title_home">Home</string>
+
+    <!--ENQUIRY LIST-->
+    <string name="e_title_name">Created By</string>
+    <string name="e_title_cust">Customer</string>
+    <string name="e_title_number">Number</string>
+    <string name="e_title_product">Product</string>
+    <string name="e_title_desc">Description</string>
+    <string name="e_title_date">Date</string>
+    <string name="e_title_note">Notes</string>
+    <string name="e_title_search">Search in Customer or Created by</string>
+
+    <!-- ADD ENQUIRY-->
+    <string name="user_name">Enter User Name</string>
+    <string name="user_phone_number">Enter User Phone Number</string>
+    <string name="user_product">Enter Product</string>
+    <string name="description">Enter Description</string>
+    <string name="date">Enter Date</string>
+    <string name="note">Enter Note</string>
+    <string name="btn_enquiry">Enter Enquiry</string>
+    <!-- MARK VISIT -->
+    <string name="rb_title_arrived">Arrived</string>
+    <string name="rb_title_departed">Departed</string>
+    <!-- OFFICE LIST -->
+    <string name="text_title_officeloc">Office Locations</string>
+    <string name="text_title_sno">Sno.</string>
+    <string name="text_title_office">Office</string>
+    <string name="text_title_lattitude">Lattitude</string>
+    <string name="text_title_longitude">Longitude</string>
+    <string name="text_tile_address">Address</string>
+
+    <!-- Office Name List  -->
+    <string-array name="arr_office_names">
+        <item>Bangalore</item>
+        <item>United States</item>
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>India Branch</item>
+        <item>Russia</item>
+        <item>China</item>
+        <item>Argentina</item>
+        <item>Kazakhstan</item>
+        <item>Sudan</item>
+        <item>Bangalore</item>
+        <item>United States</item>
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>India Branch</item>
+        <item>Russia</item>
+        <item>China</item>
+        <item>Argentina</item>
+        <item>Kazakhstan</item>
+        <item>Sudan</item>
+    </string-array>
+
+    <!-- Office Lattitude  -->
+    <string-array name="arr_office_lat">
+        <item>12.9538477</item>
+        <item>36.2080012</item>
+        <item>-21.1497862</item>
+        <item>-13.5390226</item>
+        <item>20.1471488</item>
+        <item>33.2560098</item>
+        <item>34.491608</item>
+        <item>-37.0188294</item>
+        <item>46.5907016</item>
+        <item>15.7398456</item>
+        <item>12.9538477</item>
+        <item>36.2080012</item>
+        <item>-21.1497862</item>
+        <item>-13.5390226</item>
+        <item>20.1471488</item>
+        <item>33.2560098</item>
+        <item>34.491608</item>
+        <item>-37.0188294</item>
+        <item>46.5907016</item>
+        <item>15.7398456</item>
+    </string-array>
+
+    <!-- Office Longitude  -->
+    <string-array name="arr_office_lon">
+        <item>77.3507369</item>
+        <item>-113.7390755</item>
+        <item>95.323605</item>
+        <item>-69.815335</item>
+        <item>64.4488606</item>
+        <item>40.3342845</item>
+        <item>86.0335632</item>
+        <item>-81.6584082</item>
+        <item>49.0176165</item>
+        <item>25.7004887</item>
+        <item>77.3507369</item>
+        <item>-113.7390755</item>
+        <item>95.323605</item>
+        <item>-69.815335</item>
+        <item>64.4488606</item>
+        <item>40.3342845</item>
+        <item>86.0335632</item>
+        <item>-81.6584082</item>
+        <item>49.0176165</item>
+        <item>25.7004887</item>
+    </string-array>
+
+    <!-- MARK ATTENDANCE -->
+    <string name="rb_title_in">In</string>
+    <string name="rb_title_out">Out</string>
+
+    <!-- ATTENDANCE LIST -->
+    <string name="google_maps_key">AIzaSyBni6A8suogbQXCejje8JRcXRYsAoCaHRM</string>
+    <string name="text_title_reset">Reset</string>
+    <string name="text_title_done">Search</string>
+    <string name="spinner_hint_office_name">Select Office</string>
+    <string name="spinner_hint_employee_office">Select Office</string>
+
+    <string name="spinner_hint_emp_name">Select Employee</string>
+    <string name="spinner_hint_leave_type">Select leave Type</string>
+    <string name="text_title_date">Date</string>
+    <string name="text_title_name">Name</string>
+    <string name="text_title_first_in">First IN</string>
+    <string name="text_title_last_out">Last Out</string>
+    <string name="text_title_time_worked">Time Worked</string>
+    <string name="choose_your_office">Create Another Office</string>
+    <string name="save_your_office">Save Office</string>
+    <!-- INVITE USER -->
+    <string name="text_invite_sms">, This message is send as invitation from Mirco-Office App.</string>
+    <string name="title_activity_maps_visits">Visit Locations</string>
+    <string name="lvStartDate">Start Date</string>
+    <string name="lvDays">Number of Days</string>
+    <string name="visMPersonMet">Person Met</string>
+    <string name="visMPersonTitle">Dept\Role of Person</string>
+    <string name="visNextVis">Next Visit Date</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--AdMob-->
+    <string name="ad_mob_addid">ca-app-pub-1948520848081647~6931007187</string>
+    <string name="banner_home_footer">ca-app-pub-1948520848081647/6927137754</string>
+
+</resources>

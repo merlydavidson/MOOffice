@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_background_pattern"
+    tools:context="com.microoffice.app.ui.activities.AddSupportActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tbAddSupport"
+            layout="@layout/include_tool_bar" />
+
+        <TextView
+            android:id="@+id/tvAddSupport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorprimary"
+            android:textSize="18sp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- USER NAME  -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/colorffffff"
+                        android:cursorVisible="true"
+                        android:hint="@string/user_name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/color66000000"
+                        android:textSize="16sp" />
+
+                    <ImageButton
+                        android:id="@+id/contactButton"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignTop="@+id/etUserName"
+                        android:background="@drawable/button_shape_d1622a"
+                        android:src="@drawable/ic_contact_phone" />
+                </RelativeLayout>
+                <!-- MOBILE NUMBER  -->
+
+                <EditText
+                    android:id="@+id/etMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/colorffffff"
+                    android:cursorVisible="true"
+                    android:hint="@string/user_phone_number"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="12"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/spinnerFrame"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@color/colorffffff"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="40dp">
+
+                        <Spinner
+                            android:id="@+id/etProduct"
+                            style="@style/SpinnerTheme"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:spinnerMode="dropdown" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center"
+                            android:src="@mipmap/ic_arrow_down" />
+
+                    </FrameLayout>
+                    <ImageButton
+                        android:id="@+id/addButton"
+                        android:layout_width="30dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignTop="@+id/spinnerFrame"
+                        android:background="@drawable/button_shape_d1622a"
+                        android:src="@drawable/ic_add_product" />
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/etDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/colorffffff"
+                    android:cursorVisible="true"
+                    android:hint="@string/description"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="100"
+                    android:padding="8dp"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/etDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:focusableInTouchMode="false"
+                    android:background="@color/colorffffff"
+                    android:cursorVisible="true"
+                    android:hint="@string/date"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+                <FrameLayout
+                    android:id="@+id/etNoteFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@color/colorffffff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="40dp">
+                    <EditText
+                        android:id="@+id/etNote"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorffffff"
+                        android:cursorVisible="true"
+                        android:hint="@string/note"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLength="100"
+                        android:padding="8dp"
+                        android:textColorHint="@color/color66000000"
+                        android:textSize="16sp" /></FrameLayout>
+
+                <!--<EditText-->
+                    <!--android:id="@+id/etAssignedTo"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginRight="40dp"-->
+                    <!--android:layout_marginTop="12dp"-->
+                    <!--android:background="@color/colorffffff"-->
+                    <!--android:cursorVisible="true"-->
+                    <!--android:hint="Enter Assigned Name"-->
+                    <!--android:imeOptions="actionNext"-->
+                    <!--android:inputType="text"-->
+                    <!--android:maxLength="100"-->
+                    <!--android:padding="8dp"-->
+                    <!--android:textColorHint="@color/color66000000"-->
+                    <!--android:textSize="16sp" />-->
+                <FrameLayout
+                    android:id="@+id/spinnerFrame2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/colorffffff"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="40dp">
+
+                    <Spinner
+                        android:id="@+id/etAssignedTo"
+                        style="@style/SpinnerTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center"
+                        android:src="@mipmap/ic_arrow_down" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <!-- SEARCH SMS -->
+
+                    <Button
+                        android:id="@+id/supportbtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/button_shape_d1622a"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="Save Support"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorffffff"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:foregroundGravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0.1"
+            android:foregroundGravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_home_footer"></com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+</RelativeLayout>

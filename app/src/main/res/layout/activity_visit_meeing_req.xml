@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_background_pattern"
+    tools:context="com.microoffice.app.ui.activities.AddEnquiryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tbVisMeet"
+            layout="@layout/include_tool_bar" />
+
+
+        <ScrollView
+            android:id="@+id/loDatEntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+
+                <EditText
+                    android:id="@+id/vmPersonMet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/colorffffff"
+                    android:clickable="true"
+                    android:cursorVisible="true"
+                    android:hint="@string/visMPersonMet"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="100"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/vmPersonTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/colorffffff"
+                    android:cursorVisible="true"
+                    android:hint="@string/visMPersonTitle"
+                    android:imeOptions="actionNext"
+                    android:inputType="textMultiLine"
+                    android:maxLength="100"
+                    android:padding="8dp"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/vmNextDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/colorffffff"
+                    android:cursorVisible="true"
+                    android:hint="@string/visNextVis"
+                    android:imeOptions="actionNext"
+                    android:maxLength="100"
+                    android:padding="8dp"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+
+                <FrameLayout
+                    android:id="@+id/etNoteFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorffffff">
+
+                    <EditText
+                        android:id="@+id/etLvNote"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorffffff"
+                        android:cursorVisible="true"
+                        android:hint="@string/note"
+                        android:imeOptions="actionNext"
+                        android:inputType="textMultiLine"
+
+                        android:maxLength="500"
+                        android:padding="8dp"
+                        android:textColorHint="@color/color66000000"
+                        android:textSize="16sp" />
+                </FrameLayout>
+
+                <!--<EditText-->
+                <!--android:id="@+id/etAssignedTo"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginRight="40dp"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:background="@color/colorffffff"-->
+                <!--android:cursorVisible="true"-->
+                <!--android:hint="Enter Assigned Name"-->
+                <!--android:imeOptions="actionNext"-->
+                <!--android:inputType="text"-->
+                <!--android:maxLength="100"-->
+                <!--android:padding="8dp"-->
+                <!--android:textColorHint="@color/color66000000"-->
+                <!--android:textSize="16sp" />-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <!-- SEARCH SMS -->
+
+                    <Button
+                        android:id="@+id/btMlAddToMeeting"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_shape_d1622a"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="Add Meeting Details"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorffffff"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <HorizontalScrollView
+                android:id="@+id/hsv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/mlFilterData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/list_item_meeting_list_title" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rvMeetingList"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="@color/colorffffff"
+                        android:divider="@color/color000000"
+                        android:dividerHeight="1dp"
+                        android:padding="8dp"
+                        android:scrollbars="none" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+    <RelativeLayout
+android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0.1"
+            android:foregroundGravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_home_footer"></com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

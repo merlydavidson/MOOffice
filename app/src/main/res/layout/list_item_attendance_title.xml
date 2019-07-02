@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/colorprimary"
+    android:gravity="center_vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorprimary"
+        android:measureAllChildren="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/innerLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Name"
+                android:textColor="@color/colorffffff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Office"
+            android:textColor="@color/colorffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Date"
+            android:textColor="@color/colorffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Time"
+            android:textColor="@color/colorffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Inout"
+            android:textColor="@color/colorffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:padding="2dp"
+                android:text="Todays Plan"
+                android:textColor="@color/colorffffff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:padding="2dp"
+                android:text="Place visit"
+                android:textColor="@color/colorffffff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:padding="2dp"
+                android:text="Daily Allowance"
+                android:textColor="@color/colorffffff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

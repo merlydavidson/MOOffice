@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mark_visit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@mipmap/ic_background_pattern"
+    tools:context="com.microoffice.app.ui.activities.MarkVisitActivity">
+
+    <LinearLayout
+        android:id="@+id/MarkAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <include
+
+            android:id="@+id/tbMarkVisit"
+            layout="@layout/include_tool_bar" />
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+
+            <RadioGroup
+                android:id="@+id/rgArrivedDeparted"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:orientation="horizontal"
+
+                android:weightSum="1">
+
+
+                <RadioButton
+                    android:id="@+id/rbArrived"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:gravity="left"
+                    android:text="@string/rb_title_arrived"
+                    android:textColor="@color/colorprimary"
+                    android:textSize="18sp"
+                    android:theme="@style/MyRadioTheme" />
+
+                <RadioButton
+                    android:id="@+id/rbDeparted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="50dp"
+                    android:checked="false"
+                    android:text="@string/rb_title_departed"
+                    android:textColor="@color/colorprimary"
+                    android:textSize="18sp"
+                    android:theme="@style/MyRadioTheme" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:id="@+id/rltv_location"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1.75"
+                android:gravity="center_horizontal|center_vertical">
+
+                <TextView
+                    android:id="@+id/textLocationName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+
+
+                    android:layout_marginTop="10dp"
+                    android:hint="Current Location"
+                    android:textColor="@color/colorprimary"
+                    android:textColorHint="@color/colorprimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/pickerButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.25"
+                android:background="@drawable/button_shape_d1622a"
+                android:src="@drawable/ic_place" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="2">
+
+
+            <EditText
+                android:id="@+id/textPlaceOfVisit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:hint="Place Of Visit"
+                android:textColor="@color/colorprimary"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+
+                android:id="@+id/textPurposeOfVisit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+
+                android:layout_weight="1"
+
+                android:hint="Purpose Of Visit"
+                android:textColor="@color/colorprimary"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="end"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btAddVisit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape_d1622a"
+                android:gravity="center"
+                android:padding="5dp"
+
+                android:text="Add Visit"
+                android:textAllCaps="false"
+                android:textColor="@color/colorffffff"
+                android:textSize="18sp" />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+            <Button
+                android:id="@+id/btViewVisit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape_d1622a"
+                android:padding="5dp"
+                android:text="View Visit"
+                android:textAllCaps="false"
+                android:textColor="@color/colorffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="bottom">
+
+
+
+    <com.google.android.gms.ads.AdView
+
+    android:id="@+id/adView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="end"
+    android:layout_marginBottom="0dp"
+
+    android:foregroundGravity="center_horizontal"
+    ads:adSize="BANNER"
+    ads:adUnitId="@string/banner_home_footer"></com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+</RelativeLayout>

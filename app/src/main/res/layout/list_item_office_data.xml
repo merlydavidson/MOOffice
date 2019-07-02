@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp">
+
+
+    <TextView
+        android:id="@+id/tvSno"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="1"
+        android:textColor="@color/colorprimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvOfficeName"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:maxLines="2"
+        android:text="London"
+        android:textColor="@color/colorprimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvOfficeLat"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="51.528308"
+        android:maxLength="12"
+        android:textColor="@color/colorprimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvOfficeLong"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:maxLength="12"
+        android:text="-0.3818007"
+        android:textColor="@color/colorprimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="TestData1234"
+        android:textColor="@color/colorprimary"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_background_pattern">
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_portrait" />
+
+    <TextView
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/userImage"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:textColor="@color/colorprimary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/etCmpny"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/etName"
+        android:layout_marginTop="10dp"
+        android:hint="Company"
+        android:textAlignment="center"
+        android:textColor="@color/colorprimary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/etMobile"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/etCmpny"
+        android:layout_marginTop="10dp"
+        android:hint="Mobile"
+        android:textAlignment="center"
+        android:textColor="@color/colorprimary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/etMobile"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:textColor="@color/colorprimary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/etVersion"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/etEmail"
+        android:layout_marginTop="10dp"
+        android:hint="Version"
+        android:textAlignment="center"
+        android:textColor="@color/colorprimary"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_home_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0.1"
+            android:foregroundGravity="center_horizontal"></com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/buttonImpDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape_d1622a"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etVersion"
+
+        android:layout_marginStart="10dp"
+android:layout_margin="20dp"
+        android:layout_marginEnd="10dp"
+
+        android:text="Import Database" />
+    <Button
+        android:id="@+id/buttonVacuumDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape_d1622a"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/buttonImpDB"
+android:layout_margin="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Clean DB" />
+</RelativeLayout>

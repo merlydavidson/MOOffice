@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_background_pattern"
+    android:id="@+id/logFrag">
+
+        <HorizontalScrollView
+            android:id="@+id/hsv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:measureAllChildren="false"
+            android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/Data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                        <LinearLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/colorprimary"
+                            android:gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="180dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Name"
+                                    android:textColor="@color/colorffffff"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:layout_width="180dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Mobile"
+                                    android:textColor="@color/colorffffff"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rvCallLogList"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:cacheColorHint="@color/colorffffff"
+                            android:divider="@color/color000000"
+                            android:dividerHeight="1dp"
+                            android:padding="8dp"
+                            android:scrollbars="none" />
+
+                </LinearLayout>
+        </HorizontalScrollView>
+
+</RelativeLayout>

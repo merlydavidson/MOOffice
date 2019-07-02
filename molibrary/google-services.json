@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "469024079304",
+    "firebase_url": "https://microofficelib.firebaseio.com",
+    "project_id": "microofficelib",
+    "storage_bucket": "microofficelib.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469024079304:android:eac80225f0e705da",
+        "android_client_info": {
+          "package_name": "moffice.meta.com.molibcontainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469024079304-1af959sv0401htoek2rp7t9pqqmevric.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2orOiPloWqj5nK993-F98uQE5sQxzXzM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469024079304:android:4cdcdba1498598da",
+        "android_client_info": {
+          "package_name": "moffice.meta.com.molibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469024079304-dn7jijrsfhpg3dtq9dr84ioh4n4rdi92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "moffice.meta.com.molibrary",
+            "certificate_hash": "7bce5b9cedc25ad029f4c5cf8c6c4b2786a1a110"
+          }
+        },
+        {
+          "client_id": "469024079304-1af959sv0401htoek2rp7t9pqqmevric.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2orOiPloWqj5nK993-F98uQE5sQxzXzM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469024079304-1af959sv0401htoek2rp7t9pqqmevric.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

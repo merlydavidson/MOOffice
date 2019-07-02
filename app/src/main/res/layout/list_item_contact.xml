@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karan Nassa"
+                android:textStyle="bold"
+                android:textColor="@color/colorprimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvContactNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9888582273"
+                android:textColor="@color/colorprimary"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btInvite"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right|center"
+            android:background="@color/colorprimary"
+            android:text="Invite"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+Admin registration
+1. Register
+2. Create a compnay ID (Topic)
+
+Associate Registration

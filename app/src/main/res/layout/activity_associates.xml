@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:id="@+id/activity_associate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_background_pattern">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tbAssociate"
+            layout="@layout/include_tool_bar"
+            android:title="@string/tb_title_associate" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- USER NAME  -->
+
+                <EditText
+                    android:id="@+id/etUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/colorffffff"
+                    android:cursorVisible="true"
+                    android:hint="@string/edit_user_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+
+                <!-- MOBILE NUMBER  -->
+
+                <EditText
+                    android:id="@+id/etMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/colorffffff"
+                    android:cursorVisible="true"
+                    android:hint="@string/edit_mobile_number"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+
+                <!-- PERSONAL MAIL  -->
+
+                <EditText
+                    android:id="@+id/etPersonalMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/colorffffff"
+                    android:cursorVisible="true"
+                    android:hint="@string/edit_personal_mail"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color66000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <!-- COMPANY MAIL  -->
+
+                    <EditText
+                        android:id="@+id/etCompanyMail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/colorffffff"
+                        android:cursorVisible="true"
+                        android:hint="@string/edit_company_mail"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:padding="8dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/color66000000"
+                        android:textSize="16sp" />
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right|center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/ic_help" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <!-- SHARED SECRET  -->
+
+                    <EditText
+                        android:id="@+id/etSharedSecret"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/colorffffff"
+                        android:cursorVisible="true"
+                        android:hint="@string/edit_shared_secret"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:padding="8dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/color66000000"
+                        android:textSize="16sp" />
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right|center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/ic_help" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="vertical">
+
+                    <!-- STATUS BOX  -->
+
+                    <EditText
+                        android:id="@+id/etStatusBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="40dp"
+                        android:background="@color/colorffffff"
+                        android:cursorVisible="true"
+                        android:hint="@string/edit_status_box"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/color66000000"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:orientation="vertical">
+
+                        <!-- SEARCH SMS -->
+
+                        <Button
+                            android:id="@+id/searchSMS"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/button_shape_d1622a"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:text="@string/button_search_sms"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorffffff"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/btSendRegRequet"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/button_shape_d1622a"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:text="@string/button_send_reg_sms"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorffffff"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/btClose"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/button_shape_d1622a"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:text="@string/button_text_close"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorffffff"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0.1"
+            android:foregroundGravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_home_footer"></com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:src="@android:drawable/ic_dialog_email"
+        app:backgroundTint="@color/colorprimary"
+        app:rippleColor="#FFF" />
+
+</RelativeLayout>

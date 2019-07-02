@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/colorffffff">
+     <LinearLayout
+         android:id="@+id/lldetail"
+         android:layout_width="match_parent"
+         android:layout_height="50dp">
+         <TextView
+             android:id="@+id/tvdlstartDate"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:ellipsize="end"
+             android:maxLines="1"
+             android:padding="2dp"
+             android:gravity="center"
+             android:text="Start Date"
+             android:textColor="@color/colorprimary"
+             android:textSize="14sp" />
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@color/color000000" />
+
+         <TextView
+             android:id="@+id/tvdlEndDate"
+             android:layout_width="105dp"
+             android:layout_height="wrap_content"
+             android:padding="2dp"
+             android:gravity="center"
+             android:text="End Date"
+             android:textColor="@color/colorprimary"
+             android:textSize="14sp" />
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@color/color000000" />
+
+         <TextView
+             android:id="@+id/tvdlNumOfDays"
+             android:layout_width="105dp"
+             android:layout_height="wrap_content"
+             android:padding="2dp"
+             android:gravity="center"
+             android:text="Num of days"
+             android:textColor="@color/colorprimary"
+             android:textSize="14sp" />
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@color/color000000" />
+
+
+         <TextView
+             android:id="@+id/tvdlleaveReason"
+             android:layout_width="105dp"
+             android:layout_height="wrap_content"
+             android:padding="2dp"
+             android:gravity="center"
+             android:text="Leave Reason "
+             android:textColor="@color/colorprimary"
+             android:textSize="14sp" />
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@color/color000000" />
+
+         <TextView
+             android:id="@+id/tvdlleaveType"
+             android:layout_width="105dp"
+             android:layout_height="wrap_content"
+             android:padding="2dp"
+             android:gravity="center"
+             android:text="Leave Type"
+             android:textColor="@color/colorprimary"
+             android:textSize="14sp" />
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@color/color000000" />
+
+         <TextView
+             android:id="@+id/tvdlleaveStatus"
+             android:layout_width="105dp"
+             android:layout_height="wrap_content"
+             android:padding="2dp"
+             android:gravity="center"
+             android:text="Leave Status"
+             android:textColor="@color/colorprimary"
+             android:textSize="14sp" />
+
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@color/color000000" />
+
+         <TextView
+             android:id="@+id/tvrejectionNotes"
+             android:layout_width="105dp"
+             android:layout_height="wrap_content"
+             android:padding="2dp"
+             android:gravity="center"
+             android:text="Rejection Notes"
+             android:textColor="@color/colorprimary"
+             android:textSize="14sp" />
+
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@color/color000000" />
+
+
+     </LinearLayout>
+
+ </LinearLayout>

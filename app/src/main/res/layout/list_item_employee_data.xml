@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvempname"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+
+            android:maxLines="1"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="id"
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+
+        <TextView
+            android:id="@+id/tvofficename"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="30 Mins."
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="30 Mins."
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="30 Mins."
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+
+        <TextView
+            android:id="@+id/tvinout"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="30 Mins."
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+    </LinearLayout>
+</LinearLayout>

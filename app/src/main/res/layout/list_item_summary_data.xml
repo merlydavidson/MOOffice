@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@color/colorffffff"
+        android:id="@+id/llsummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="name"
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+
+        <TextView
+            android:id="@+id/tvCasualLeave"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="Start date"
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+
+        <TextView
+            android:id="@+id/tvEarnedLeave"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="End Date"
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+
+        <TextView
+            android:id="@+id/tvLOP"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="Number Of Days"
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+        <TextView
+            android:id="@+id/tvTotalLeave"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="Leave Reason "
+            android:textColor="@color/colorprimary"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

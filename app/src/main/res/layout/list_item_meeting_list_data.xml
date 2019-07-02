@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/colorffffff"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/mlName"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="name"
+        android:textColor="@color/colorprimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mlTitle"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Title"
+        android:textColor="@color/colorprimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/mlDate"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Date"
+        android:textColor="@color/colorprimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mlNextVisDate"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="NextVisit"
+        android:textColor="@color/colorprimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/mlNote"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Note"
+        android:textColor="@color/colorprimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

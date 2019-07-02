@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:background="@mipmap/ic_background_pattern"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorffffff"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_margin="10dp"
+                android:text="@string/text_title_officeloc"
+                android:textColor="@color/color000000"
+                android:textSize="16sp"
+                android:id="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/ivsendOffice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView"
+                android:layout_marginEnd="14dp"
+                android:layout_toStartOf="@+id/ivAddOffice"
+                android:background="@drawable/sendlocation"
+                android:padding="2dp"
+                android:textColor="#ffffff" />
+            <ImageView
+                android:id="@+id/ivAddOffice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                />
+        </RelativeLayout>
+        <HorizontalScrollView
+            android:id="@+id/hsv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:measureAllChildren="false"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/llOfficeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <!-- TITLE LISTING -->
+
+                <include layout="@layout/list_item_office_title" />
+
+                <!-- REGISTERED OFFICE LIST DATA -->
+
+                <ListView
+                    android:id="@+id/lvOfficeList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="@color/colorffffff"
+                    android:divider="@color/color000000"
+                    android:dividerHeight="1dp"
+                    android:padding="8dp"
+                    android:scrollbars="none" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_home_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0.1"
+            android:foregroundGravity="center_horizontal"></com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+</RelativeLayout>

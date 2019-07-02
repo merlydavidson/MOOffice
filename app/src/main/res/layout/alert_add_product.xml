@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/prdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorffffff"
+        android:cursorVisible="true"
+        android:hint="Enter Product"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColorHint="@color/color66000000"
+        android:textColor="@color/colorprimary"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prdtName"
+        android:weightSum="1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:layout_weight="0.5"
+            android:background="@color/colorprimary"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="OK"
+            android:layout_marginLeft="1dp"
+            android:background="@color/colorprimary"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

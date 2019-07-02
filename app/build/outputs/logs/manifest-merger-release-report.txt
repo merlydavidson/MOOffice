@@ -1,0 +1,995 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:2:1-33:12
+MERGED from [cn.pedant.sweetalert:library:1.3] /home/raneez/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/214178609f0d54b9d54f1858391d3735/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/35ec5e8f17a93d08fe0180c5b30d9044/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/86bf2d9dc6eaf845f255349d8bb41eaf/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/813f2c3ec8039d3061ef6b7f83cbeb6f/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6ebffbb9cf5ad6a7cdcb025a6c7e7b8e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/4b323b34236bff61de4f95405b504c65/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-alpha1.aar/e91af39eb45d28857bf3e010f30a75bc/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/raneez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ac40cffc96330a60ad47e372e86e322d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/d544927455693fef36a28a370f3fbfe9/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/99510ab61fe84b8f0247e305468c046a/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/49ed6daec1ce5b0e93000e3809fd4710/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:16:1-25:12
+MERGED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/ddd1a2ac5a71e07d8e07b39095062209/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/8c9b829f1e980ab111d6977d1a3aecce/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/bdc6be2c879a7b70c62704e506289884/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/28aaf803bc6d4c1eecfb8d5e84359068/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/743d97743a2cc34cd19495760b9768b3/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/c9a3d12de0b6db5e8a3755460f0a5f4a/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/ce3e65b916dedae1b896973b82ffcccb/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/33646f817b247de50960fad2fae95dbd/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/7ce31bd436de446bc8b887d4d3848018/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/99cd2191bbec0a804ee850354e181cff/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/5539c7aafcdc9ebf13a078f897d68692/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/9353c6f25da7a607eda1fd70bc7d770e/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/9ad38d687d8e691f102229d267c7b23a/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/a2885e9f0d9351cf6fa7a88486557463/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/66af755726b22eab30ece1282d2fcdc9/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/514bff86d06845bfbc1f1c86ece48ed8/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/6217dc59a6fad2c7010ac99883c1bb0c/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/669cbc4fd1b29908eb0008fdd1523d36/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/5d8e3ef8dd74c3ea876edf476562cbd9/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/8cf19b18070c851c5a68715a4fbeb3b4/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/af68b37c8cdae287d45ca68ddecac966/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/58ca6bf29668cc3705a7d8b125ea1c2c/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/5a5856cd2323fa40415ee82c9107b1de/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/97599ef280ce7f6458eaf5a060d0ed3f/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/f6372a3cc733e277935568aa1dbd186b/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/5a063ebe09c069995cc855506501ecc9/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-database:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/74b2efadca715f08b1c5633303cf2202/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/4fc556b957601a8e4988740fd69ec81f/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-core:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-core-11.4.0.aar/036f6badff297cf6bb878a6abb4ec806/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/899eab079380601de796e6c1bad57010/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/5bb4cf67fad3f65af6dff8dfc5a28bd8/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/efcd620f33dc5e2b773ee186c651b0dc/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/b2216bfa1e8c73625742df98499613b6/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/b6e5e0b132e536adbb29d1d1c9b53aae/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b6748e65235b781fa7f2ad600872814f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.medyo:fancybuttons:1.9.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.9.0.aar/e8557d279ed109da3f101c5b1c76aeb9/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2f750c56bb42618ec3c8dc8ac67c21fe/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/6ed269c870ef48aad05f6d4c6b51ad8b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ca29da7c7796009d49a5d0cc50f7e207/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:palette-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/ed12bd394526d4839e585b56788bac48/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dbb4e2c50552ebb63f85de7ecaa6c1eb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bbb03b6eff99ffc6e298617d094cd420/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/804b3754ce9e2f4316de8b746430f397/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/32b2aedf04bb28ca0107acbb770cd3ef/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fc0c09bc129dcec747036c91f0b65d61/AndroidManifest.xml:17:1-30:12
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+	package
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:1-97:12
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/5a063ebe09c069995cc855506501ecc9/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/5a063ebe09c069995cc855506501ecc9/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:7:5-72
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:14:5-72
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:14:5-72
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:7:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:8:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:9:5-81
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:18:5-81
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:10:5-79
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:17:5-79
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:11:22-70
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:12:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/5d8e3ef8dd74c3ea876edf476562cbd9/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/5d8e3ef8dd74c3ea876edf476562cbd9/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:14:5-98
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:14:22-95
+uses-permission#android.permission.READ_SMS
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:15:5-67
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:16:5-67
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#com.android.vending.BILLING
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:16:5-67
+MERGED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:10:5-67
+MERGED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:16:22-64
+application
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:18:5-95:19
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:22:5-31:19
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:22:5-31:19
+MERGED from [cn.pedant.sweetalert:library:1.3] /home/raneez/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/214178609f0d54b9d54f1858391d3735/AndroidManifest.xml:11:5-20
+MERGED from [cn.pedant.sweetalert:library:1.3] /home/raneez/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/214178609f0d54b9d54f1858391d3735/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:29:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/35ec5e8f17a93d08fe0180c5b30d9044/AndroidManifest.xml:11:5-15:19
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/35ec5e8f17a93d08fe0180c5b30d9044/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/86bf2d9dc6eaf845f255349d8bb41eaf/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/86bf2d9dc6eaf845f255349d8bb41eaf/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/813f2c3ec8039d3061ef6b7f83cbeb6f/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/813f2c3ec8039d3061ef6b7f83cbeb6f/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6ebffbb9cf5ad6a7cdcb025a6c7e7b8e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6ebffbb9cf5ad6a7cdcb025a6c7e7b8e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/4b323b34236bff61de4f95405b504c65/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/4b323b34236bff61de4f95405b504c65/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/raneez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ac40cffc96330a60ad47e372e86e322d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/raneez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ac40cffc96330a60ad47e372e86e322d/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/d544927455693fef36a28a370f3fbfe9/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/d544927455693fef36a28a370f3fbfe9/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/99510ab61fe84b8f0247e305468c046a/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/99510ab61fe84b8f0247e305468c046a/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:24:5-19
+MERGED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:12:5-17:19
+MERGED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:12:5-17:19
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/ddd1a2ac5a71e07d8e07b39095062209/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/ddd1a2ac5a71e07d8e07b39095062209/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/8c9b829f1e980ab111d6977d1a3aecce/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/8c9b829f1e980ab111d6977d1a3aecce/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/bdc6be2c879a7b70c62704e506289884/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/bdc6be2c879a7b70c62704e506289884/AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/28aaf803bc6d4c1eecfb8d5e84359068/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/28aaf803bc6d4c1eecfb8d5e84359068/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/ce3e65b916dedae1b896973b82ffcccb/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/ce3e65b916dedae1b896973b82ffcccb/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/99cd2191bbec0a804ee850354e181cff/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/99cd2191bbec0a804ee850354e181cff/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/5539c7aafcdc9ebf13a078f897d68692/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/5539c7aafcdc9ebf13a078f897d68692/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/9353c6f25da7a607eda1fd70bc7d770e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/9353c6f25da7a607eda1fd70bc7d770e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/9ad38d687d8e691f102229d267c7b23a/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/9ad38d687d8e691f102229d267c7b23a/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/a2885e9f0d9351cf6fa7a88486557463/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/a2885e9f0d9351cf6fa7a88486557463/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/66af755726b22eab30ece1282d2fcdc9/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/66af755726b22eab30ece1282d2fcdc9/AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/514bff86d06845bfbc1f1c86ece48ed8/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/514bff86d06845bfbc1f1c86ece48ed8/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/6217dc59a6fad2c7010ac99883c1bb0c/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/6217dc59a6fad2c7010ac99883c1bb0c/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/5d8e3ef8dd74c3ea876edf476562cbd9/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/5d8e3ef8dd74c3ea876edf476562cbd9/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/8cf19b18070c851c5a68715a4fbeb3b4/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/8cf19b18070c851c5a68715a4fbeb3b4/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/af68b37c8cdae287d45ca68ddecac966/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/af68b37c8cdae287d45ca68ddecac966/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/58ca6bf29668cc3705a7d8b125ea1c2c/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/58ca6bf29668cc3705a7d8b125ea1c2c/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/5a5856cd2323fa40415ee82c9107b1de/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/5a5856cd2323fa40415ee82c9107b1de/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/97599ef280ce7f6458eaf5a060d0ed3f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/97599ef280ce7f6458eaf5a060d0ed3f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/f6372a3cc733e277935568aa1dbd186b/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/f6372a3cc733e277935568aa1dbd186b/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/5a063ebe09c069995cc855506501ecc9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/5a063ebe09c069995cc855506501ecc9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-core:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-core-11.4.0.aar/036f6badff297cf6bb878a6abb4ec806/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-core-11.4.0.aar/036f6badff297cf6bb878a6abb4ec806/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/efcd620f33dc5e2b773ee186c651b0dc/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/efcd620f33dc5e2b773ee186c651b0dc/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/b2216bfa1e8c73625742df98499613b6/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/b2216bfa1e8c73625742df98499613b6/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/b6e5e0b132e536adbb29d1d1c9b53aae/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/b6e5e0b132e536adbb29d1d1c9b53aae/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b6748e65235b781fa7f2ad600872814f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b6748e65235b781fa7f2ad600872814f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.github.medyo:fancybuttons:1.9.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.9.0.aar/e8557d279ed109da3f101c5b1c76aeb9/AndroidManifest.xml:11:5-20
+MERGED from [com.github.medyo:fancybuttons:1.9.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.9.0.aar/e8557d279ed109da3f101c5b1c76aeb9/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2f750c56bb42618ec3c8dc8ac67c21fe/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2f750c56bb42618ec3c8dc8ac67c21fe/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/6ed269c870ef48aad05f6d4c6b51ad8b/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/6ed269c870ef48aad05f6d4c6b51ad8b/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ca29da7c7796009d49a5d0cc50f7e207/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ca29da7c7796009d49a5d0cc50f7e207/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:palette-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/ed12bd394526d4839e585b56788bac48/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/ed12bd394526d4839e585b56788bac48/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dbb4e2c50552ebb63f85de7ecaa6c1eb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dbb4e2c50552ebb63f85de7ecaa6c1eb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bbb03b6eff99ffc6e298617d094cd420/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bbb03b6eff99ffc6e298617d094cd420/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/804b3754ce9e2f4316de8b746430f397/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/804b3754ce9e2f4316de8b746430f397/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/32b2aedf04bb28ca0107acbb770cd3ef/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/32b2aedf04bb28ca0107acbb770cd3ef/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fc0c09bc129dcec747036c91f0b65d61/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fc0c09bc129dcec747036c91f0b65d61/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:21:9-45
+	android:allowBackup
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:24:9-48
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:19:9-43
+activity#com.microoffice.app.ui.activities.SplashActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:25:19-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.microoffice.app.ui.activities.MainActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:32:9-34:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:33:13-55
+activity#com.microoffice.app.ui.activities.AdministratorActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:35:9-38:58
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:37:13-49
+	android:windowSoftInputMode
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:38:13-55
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:36:13-64
+activity#com.microoffice.app.ui.activities.AssociatesActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:39:9-42:58
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:41:13-49
+	android:windowSoftInputMode
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:42:13-55
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:40:13-61
+activity#com.microoffice.app.ui.activities.DashboardActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:43:9-46:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:46:13-49
+	android:launchMode
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:45:13-48
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:44:13-60
+activity#com.microoffice.app.ui.activities.AddOfficeLocationActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:47:9-50:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:50:13-49
+	android:windowSoftInputMode
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:49:13-52
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:48:13-68
+activity#com.microoffice.app.ui.activities.MarkAttendanceActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:51:9-54:55
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:53:13-49
+	android:windowSoftInputMode
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:54:13-52
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:52:13-65
+activity#com.microoffice.app.ui.activities.AttendanceListActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:56:13-65
+activity#com.microoffice.app.ui.activities.MarkVisitActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:59:13-60
+activity#com.microoffice.app.ui.activities.VisitListActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:61:9-63:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:62:13-60
+activity#com.microoffice.app.ui.activities.EnquiryListActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:64:9-66:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:65:13-62
+activity#com.microoffice.app.ui.activities.AddEnquiryActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:67:9-69:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:68:13-61
+activity#com.microoffice.app.ui.activities.VisitMeetingList
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:70:9-72:52
+	android:screenOrientation
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:71:13-59
+meta-data#com.google.android.geo.API_KEY
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:74:9-76:71
+	android:value
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:76:13-68
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:75:13-58
+meta-data#com.google.android.gms.version
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:77:9-79:69
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/b6e5e0b132e536adbb29d1d1c9b53aae/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/b6e5e0b132e536adbb29d1d1c9b53aae/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:79:13-66
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:78:13-58
+activity#com.microoffice.app.ui.activities.AddSupportActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:81:9-70
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:81:19-67
+activity#com.microoffice.app.ui.activities.SupportListActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:82:9-71
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:82:19-68
+activity#com.microoffice.app.ui.activities.LeaveListActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:83:9-69
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:83:19-66
+activity#com.microoffice.app.ui.activities.LeaveManagementActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:84:9-75
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:84:19-72
+activity#com.microoffice.app.ui.activities.MapsVisitsActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:85:9-88:51
+	android:label
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:87:13-63
+	android:launchMode
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:88:13-48
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:86:13-61
+activity#com.microoffice.app.ui.activities.LeaveSummaryActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:89:9-72
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:89:19-69
+activity#com.microoffice.app.ui.activities.LeaveDetailActivity
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:90:9-80
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:90:19-68
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:91:9-93:69
+	android:value
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:93:13-67
+	android:name
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml:92:13-69
+uses-sdk
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.pedant.sweetalert:library:1.3] /home/raneez/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/214178609f0d54b9d54f1858391d3735/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.pedant.sweetalert:library:1.3] /home/raneez/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/214178609f0d54b9d54f1858391d3735/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/35ec5e8f17a93d08fe0180c5b30d9044/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/35ec5e8f17a93d08fe0180c5b30d9044/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/86bf2d9dc6eaf845f255349d8bb41eaf/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/86bf2d9dc6eaf845f255349d8bb41eaf/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/813f2c3ec8039d3061ef6b7f83cbeb6f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/813f2c3ec8039d3061ef6b7f83cbeb6f/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6ebffbb9cf5ad6a7cdcb025a6c7e7b8e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6ebffbb9cf5ad6a7cdcb025a6c7e7b8e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/4b323b34236bff61de4f95405b504c65/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/4b323b34236bff61de4f95405b504c65/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-alpha1.aar/e91af39eb45d28857bf3e010f30a75bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-alpha1.aar/e91af39eb45d28857bf3e010f30a75bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/raneez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ac40cffc96330a60ad47e372e86e322d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/raneez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ac40cffc96330a60ad47e372e86e322d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/d544927455693fef36a28a370f3fbfe9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/d544927455693fef36a28a370f3fbfe9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/99510ab61fe84b8f0247e305468c046a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/99510ab61fe84b8f0247e305468c046a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/49ed6daec1ce5b0e93000e3809fd4710/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/49ed6daec1ce5b0e93000e3809fd4710/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:23:5-43
+MERGED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/ddd1a2ac5a71e07d8e07b39095062209/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/ddd1a2ac5a71e07d8e07b39095062209/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/8c9b829f1e980ab111d6977d1a3aecce/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/8c9b829f1e980ab111d6977d1a3aecce/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/bdc6be2c879a7b70c62704e506289884/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/bdc6be2c879a7b70c62704e506289884/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/28aaf803bc6d4c1eecfb8d5e84359068/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/28aaf803bc6d4c1eecfb8d5e84359068/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/743d97743a2cc34cd19495760b9768b3/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/743d97743a2cc34cd19495760b9768b3/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/c9a3d12de0b6db5e8a3755460f0a5f4a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/c9a3d12de0b6db5e8a3755460f0a5f4a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/ce3e65b916dedae1b896973b82ffcccb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/ce3e65b916dedae1b896973b82ffcccb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/33646f817b247de50960fad2fae95dbd/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/33646f817b247de50960fad2fae95dbd/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/7ce31bd436de446bc8b887d4d3848018/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/7ce31bd436de446bc8b887d4d3848018/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/99cd2191bbec0a804ee850354e181cff/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/99cd2191bbec0a804ee850354e181cff/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/5539c7aafcdc9ebf13a078f897d68692/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/5539c7aafcdc9ebf13a078f897d68692/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/9353c6f25da7a607eda1fd70bc7d770e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/9353c6f25da7a607eda1fd70bc7d770e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/9ad38d687d8e691f102229d267c7b23a/AndroidManifest.xml:4:3-41
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/9ad38d687d8e691f102229d267c7b23a/AndroidManifest.xml:4:3-41
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/a2885e9f0d9351cf6fa7a88486557463/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/a2885e9f0d9351cf6fa7a88486557463/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/66af755726b22eab30ece1282d2fcdc9/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/66af755726b22eab30ece1282d2fcdc9/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/514bff86d06845bfbc1f1c86ece48ed8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/514bff86d06845bfbc1f1c86ece48ed8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/6217dc59a6fad2c7010ac99883c1bb0c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/6217dc59a6fad2c7010ac99883c1bb0c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/669cbc4fd1b29908eb0008fdd1523d36/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/669cbc4fd1b29908eb0008fdd1523d36/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/5d8e3ef8dd74c3ea876edf476562cbd9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/5d8e3ef8dd74c3ea876edf476562cbd9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/8cf19b18070c851c5a68715a4fbeb3b4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/8cf19b18070c851c5a68715a4fbeb3b4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/af68b37c8cdae287d45ca68ddecac966/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/af68b37c8cdae287d45ca68ddecac966/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/58ca6bf29668cc3705a7d8b125ea1c2c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/58ca6bf29668cc3705a7d8b125ea1c2c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/5a5856cd2323fa40415ee82c9107b1de/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/5a5856cd2323fa40415ee82c9107b1de/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/97599ef280ce7f6458eaf5a060d0ed3f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/97599ef280ce7f6458eaf5a060d0ed3f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/f6372a3cc733e277935568aa1dbd186b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/f6372a3cc733e277935568aa1dbd186b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/5a063ebe09c069995cc855506501ecc9/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/5a063ebe09c069995cc855506501ecc9/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/74b2efadca715f08b1c5633303cf2202/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/74b2efadca715f08b1c5633303cf2202/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/4fc556b957601a8e4988740fd69ec81f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/4fc556b957601a8e4988740fd69ec81f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-core-11.4.0.aar/036f6badff297cf6bb878a6abb4ec806/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-core-11.4.0.aar/036f6badff297cf6bb878a6abb4ec806/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/899eab079380601de796e6c1bad57010/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/899eab079380601de796e6c1bad57010/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/5bb4cf67fad3f65af6dff8dfc5a28bd8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/5bb4cf67fad3f65af6dff8dfc5a28bd8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/efcd620f33dc5e2b773ee186c651b0dc/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/efcd620f33dc5e2b773ee186c651b0dc/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/b2216bfa1e8c73625742df98499613b6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/b2216bfa1e8c73625742df98499613b6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/b6e5e0b132e536adbb29d1d1c9b53aae/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/b6e5e0b132e536adbb29d1d1c9b53aae/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b6748e65235b781fa7f2ad600872814f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b6748e65235b781fa7f2ad600872814f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.github.medyo:fancybuttons:1.9.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.9.0.aar/e8557d279ed109da3f101c5b1c76aeb9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.medyo:fancybuttons:1.9.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.9.0.aar/e8557d279ed109da3f101c5b1c76aeb9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2f750c56bb42618ec3c8dc8ac67c21fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2f750c56bb42618ec3c8dc8ac67c21fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/6ed269c870ef48aad05f6d4c6b51ad8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/6ed269c870ef48aad05f6d4c6b51ad8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ca29da7c7796009d49a5d0cc50f7e207/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ca29da7c7796009d49a5d0cc50f7e207/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:palette-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/ed12bd394526d4839e585b56788bac48/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/ed12bd394526d4839e585b56788bac48/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dbb4e2c50552ebb63f85de7ecaa6c1eb/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dbb4e2c50552ebb63f85de7ecaa6c1eb/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bbb03b6eff99ffc6e298617d094cd420/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bbb03b6eff99ffc6e298617d094cd420/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/804b3754ce9e2f4316de8b746430f397/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/804b3754ce9e2f4316de8b746430f397/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/32b2aedf04bb28ca0107acbb770cd3ef/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/32b2aedf04bb28ca0107acbb770cd3ef/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fc0c09bc129dcec747036c91f0b65d61/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fc0c09bc129dcec747036c91f0b65d61/AndroidManifest.xml:20:5-22:41
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+		ADDED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+		INJECTED from /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.SEND_SMS
+ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:20:22-73
+service#moffice.meta.com.molibrary.firebase.FireBaseMesgReceiver
+ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:26:9-30:19
+	android:name
+		ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:26:18-89
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:27:13-29:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [:molibrary] /media/raneez/Drive1/Documents/Development/Projects/BMJO/MicroOfficeERP-Leave-Latest/molibrary/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:28:25-75
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/4b323b34236bff61de4f95405b504c65/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/4b323b34236bff61de4f95405b504c65/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-alpha1.aar/e91af39eb45d28857bf3e010f30a75bc/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-alpha1.aar/e91af39eb45d28857bf3e010f30a75bc/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/ddd1a2ac5a71e07d8e07b39095062209/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/ddd1a2ac5a71e07d8e07b39095062209/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2f750c56bb42618ec3c8dc8ac67c21fe/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2f750c56bb42618ec3c8dc8ac67c21fe/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/6ed269c870ef48aad05f6d4c6b51ad8b/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/6ed269c870ef48aad05f6d4c6b51ad8b/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ca29da7c7796009d49a5d0cc50f7e207/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ca29da7c7796009d49a5d0cc50f7e207/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dbb4e2c50552ebb63f85de7ecaa6c1eb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dbb4e2c50552ebb63f85de7ecaa6c1eb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bbb03b6eff99ffc6e298617d094cd420/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bbb03b6eff99ffc6e298617d094cd420/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/804b3754ce9e2f4316de8b746430f397/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/804b3754ce9e2f4316de8b746430f397/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/32b2aedf04bb28ca0107acbb770cd3ef/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/32b2aedf04bb28ca0107acbb770cd3ef/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/raneez/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e3d587056cc607df96e121a7efcef72d/AndroidManifest.xml:26:9-47
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/72828336d5c2ac65fae55817f6e5c9b7/AndroidManifest.xml:7:18-90
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/5940bea9ded28409b39d604c37d8680f/AndroidManifest.xml:21:52-75
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:13:9-16:75
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:15:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:16:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:1.1] /home/raneez/.gradle/caches/transforms-1/files-1.1/billing-1.1.aar/6910b4cc50d75cf62fa5321934831141/AndroidManifest.xml:14:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/28aaf803bc6d4c1eecfb8d5e84359068/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/28aaf803bc6d4c1eecfb8d5e84359068/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/28aaf803bc6d4c1eecfb8d5e84359068/AndroidManifest.xml:23:18-87
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:25:9-257
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:25:231-255
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/fc722297e7bffe84ef138d7487607ddf/AndroidManifest.xml:25:19-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f4046e47129860e3d9c17f72827609da/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:27:9-28:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:27:85-107
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:27:108-132
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:27:19-84
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:29:9-132
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:29:83-105
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:29:106-130
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:29:18-82
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:30:9-192
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:30:143-165
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:30:166-190
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:30:86-142
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/63316937b8a7bf35149c41cc1607a6cc/AndroidManifest.xml:30:18-85
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:20:19-50
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/0e4829265b388a1f006daae0e5ff7feb/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/888bf54f11cc046702247e8c7255bca3/AndroidManifest.xml:24:18-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/60966e9c0cfaf67347f6e22ff10f75ad/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/8f13861d2371c4c9604b9abb85683b31/AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/47f5bcc0e3d4320d198414cd3441554f/AndroidManifest.xml:19:19-85
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:25:19-93
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:26:13-31:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.microoffice.app
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/d438e6b1efa7763cafce9e9696949740/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/3bf2de043eb4cffdd0e28977265df58d/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/a9b9d00f295b8a299a395edcd74877f4/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:24:17-71
+permission#com.microoffice.app.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:26:22-76
+uses-permission#com.microoffice.app.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.microoffice.app
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:33:27-58
+category#com.microoffice.app
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/cdd8c09e7e86810ddb25d90bc2dfe461/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/a20d871ac3451869c0040e55fd857fd7/AndroidManifest.xml:6:79-143
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fc0c09bc129dcec747036c91f0b65d61/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fc0c09bc129dcec747036c91f0b65d61/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/raneez/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fc0c09bc129dcec747036c91f0b65d61/AndroidManifest.xml:26:13-58

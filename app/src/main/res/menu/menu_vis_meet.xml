@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mlViewNote"
+        android:title="ViewNote"/>
+
+    <item
+        android:id="@+id/mlReviewd"
+        android:title="MarkAsReviewed"/>
+
+    <item
+        android:id="@+id/mlEdit"
+        android:title="Edit"/>
+
+    <item
+        android:id="@+id/mlDelete"
+        android:title="Delete"/>
+</menu>
